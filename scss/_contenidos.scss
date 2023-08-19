@@ -32,7 +32,7 @@ main h1 {
     &__galeria {
       display: grid;
       grid-template-columns: 25% 25% 25% 25% ;
-      grid-template-rows: 350px 350px;
+      grid-template-rows: 420px 420px;
       padding:  75px 100px 25px 100px;
       flex-wrap: wrap;
     }
@@ -82,28 +82,30 @@ main h1 {
     margin: 10px;
     border: 2px solid rgba(2, 1, 28, 0.486);
     background-color: #5f6691b7;
+    height: 25rem;  
   
       img {
-        @include w-h (284.8px, 160px);
+        @include w-h (100%, 160px);
         border: 2px solid rgba(1, 1, 51, 0.1);
       }
   
       p {
+        margin: 0;
+        padding: 0;
         font-size: 14px;
       }
   }
   
   .card-body {
     @include dflex-column-aligncen;
+    justify-content: space-between;
+    width: 100%;
   
     &__button {
-      display: flex;
-      align-self: flex-end;
-      position: relative;
-      bottom: 10px;
       background-color: rgba(5, 11, 167, 0.6);
       border-radius: 10%;
       border: 2px solid rgb(1, 1, 58);
+      align-self: flex-end;
 
         a {
           text-decoration: none;
