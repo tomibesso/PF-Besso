@@ -420,6 +420,18 @@ main h1 {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .main-inicio__contenido-inicio div h2 {
+    font-size: 3rem;
+  }
+  #ir-al-pie-de-pagina {
+    position: static;
+  }
+  .main-inicio__contenedor-enlace {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   footer div .bi {
     font-size: 2em;
     color: rgb(1, 3, 19);
@@ -538,6 +550,15 @@ main h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #ir-al-pie-de-pagina {
+    position: static;
+  }
+  .main-inicio__contenedor-enlace {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .main-inicio__galeria__card {
     width: 80%;

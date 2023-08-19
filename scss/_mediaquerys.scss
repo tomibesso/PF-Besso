@@ -48,13 +48,35 @@
             }
     }
 
-    .main-inicio__galeria {
+    .main-inicio {
+    
+        &__galeria {
+        
         margin-top: 20px;
         padding: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        }
+
+        &__contenido-inicio {
+
+            div h2 {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    #ir-al-pie-de-pagina {
+        position: static;
+    }
+
+    .main-inicio__contenedor-enlace {
+        position: fixed;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     footer div .bi {
@@ -196,7 +218,17 @@
 
     .main-inicio__galeria {
         @include dflex-column-aligncen;
+    }
 
+    #ir-al-pie-de-pagina {
+        position: static;
+    }
+
+    .main-inicio__contenedor-enlace {
+        position: fixed;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .main-inicio__galeria__card {
