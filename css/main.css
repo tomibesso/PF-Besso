@@ -128,6 +128,14 @@ main h1 {
   color: #afafdd;
 }
 
+.bi-arrow-up-circle-fill {
+  font-size: 2em;
+  color: rgb(9, 5, 57);
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+}
+
 .main-inicio__descripcion, .main-inicio h1 {
   display: flex;
   justify-content: center;
@@ -302,6 +310,7 @@ main h1 {
   font-family: "Kanit", sans-serif;
   font-weight: bold;
   text-align: center;
+  font-size: 2em;
 }
 .main-nosotros p {
   font-size: 1.25em;
@@ -421,12 +430,12 @@ main h1 {
     justify-content: center;
   }
   .main-inicio__contenido-inicio div h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   #ir-al-pie-de-pagina {
     position: static;
   }
-  .main-inicio__contenedor-enlace {
+  .main-inicio__contenedor-enlace-pie {
     position: fixed;
     top: 95%;
     left: 50%;
@@ -447,13 +456,18 @@ main h1 {
     align-items: center;
     width: 100vw;
   }
+  .main-publicidad h1 {
+    margin-bottom: 40px;
+  }
   .main-publicidad h3, .main-publicidad h5 {
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
     text-align: center;
   }
   .main-publicidad__datos {
     margin: 0;
+    margin-top: 20px;
     width: 90%;
   }
   .main-nosotros h1 {
@@ -465,6 +479,10 @@ main h1 {
     justify-content: center;
     align-items: center;
     width: 100vw;
+  }
+  .main-bibliografia__enlaces {
+    height: 100vh;
+    text-align: left;
   }
   .main-bibliografia__url-usuarios {
     margin: 0;
@@ -554,7 +572,7 @@ main h1 {
   #ir-al-pie-de-pagina {
     position: static;
   }
-  .main-inicio__contenedor-enlace {
+  .main-inicio__contenedor-enlace-pie {
     position: fixed;
     top: 95%;
     left: 50%;
@@ -566,9 +584,13 @@ main h1 {
   .main-inicio__galeria__card img {
     width: 100%;
   }
+  .main-publicidad h1 {
+    margin-bottom: 40px;
+  }
   .main-publicidad h3, .main-publicidad h5 {
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
     text-align: center;
   }
   .main-publicidad__datos {
@@ -577,14 +599,21 @@ main h1 {
   .main-nosotros h1 {
     margin-bottom: 35px;
   }
+  .main-bibliografia__enlaces {
+    height: 500px;
+    margin-top: 40px;
+    text-align: left;
+  }
   .main-bibliografia__url-usuarios {
-    width: 90vw;
+    margin: 0;
+    width: 100%;
   }
   .main-bibliografia__url-usuarios__form {
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 90vw;
+    width: 95vw;
   }
   .main-bibliografia__url-usuarios__form input {
     margin-bottom: 15px;
@@ -672,18 +701,32 @@ main h1 {
   .main-nosotros h1 {
     margin-bottom: 35px;
   }
+  .main-bibliografia h1 {
+    margin-bottom: 40px;
+  }
+  .main-bibliografia__enlaces {
+    text-align: left;
+    margin-bottom: 50px;
+    height: 400px;
+  }
   .main-bibliografia__url-usuarios {
-    margin: 0 10px;
-    width: 100vw;
+    margin: 0;
+    width: 100%;
   }
   .main-bibliografia__url-usuarios__form {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 100vw;
+    align-items: center;
+    width: 100%;
   }
   .main-bibliografia__url-usuarios__form input {
+    margin: 0;
     margin-bottom: 15px;
+    width: 90%;
+    text-align: center;
+  }
+  .main-bibliografia__url-usuarios__form button {
+    width: 90%;
   }
   .mi-cuenta {
     margin: 0;
