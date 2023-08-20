@@ -21,10 +21,15 @@ main h1 {
     color: #afafdd
   }
 
+  .contenedor-flecha {
+    display: flex;
+    justify-content: center;
+  }
+
   .bi-arrow-up-circle-fill {
     font-size: 2em;
     color: rgb(9, 5, 57);
-}
+  }
   
   .main-inicio {
 
