@@ -21,24 +21,26 @@
         }
     }
 
-    .navbar {
-        position: absolute;
-        right: 5px;
+    .navbar-toggler {
+        position: relative;
+        top: 20px;
     }
 
     .navbar-collapse {
         z-index: 10;
-        position: fixed;
-        top: 75px;
-        right: 5px;
-        background-color: rgb(176, 193, 241);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: #c7c9ee;
         margin-bottom: 100px;
         border-radius: 5px;
+        width: 100vw;
       
           a {
             text-align: center;
+            font-size: 1em;
           }
-      } 
+    }
 
     main {
         text-align: center;
@@ -79,7 +81,7 @@
     }
 
     footer div .bi {
-        font-size: 2em;
+        font-size: 1.5em;
         color: rgb(1, 3, 19);
         margin: 5px;
     }
@@ -196,27 +198,34 @@
         left: 25vw;
     }
 
-    .navbar {
+    .navbar-toggler {
         position: absolute;
-        top: 20px;
+        top: 10px;
+        right: 20px;
     }
 
     .navbar-collapse {
         z-index: 10;
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: 78px;
         right: 3px;
-        background-color: rgb(176, 193, 241);
+        background-color: #c7c9ee;
         margin-bottom: 100px;
         border-radius: 5px;
+        width: 100vw;
       
           a {
             text-align: center;
+            font-size: 1.5em;
           }
-      } 
+      }
 
     .navbar-brand {
         display: none;
+    }
+
+    footer div .bi {
+        font-size: 1.8em;
     }
 
     main {
@@ -340,16 +349,22 @@
     .navbar-collapse {
         z-index: 10;
         position: absolute;
-        top: 55px;
+        top: 95px;
         right: 3px;
-        background-color: rgb(176, 193, 241);
+        background-color: #c7c9ee;
         margin-bottom: 100px;
         border-radius: 5px;
+        width: 100vw;
       
           a {
             text-align: center;
+            font-size: 1.5em;
           }
       }
+
+    footer div .bi {
+        font-size: 2em;
+    }
 
     main {
         text-align: center;
@@ -475,6 +490,10 @@
 
     .navbar {
         margin-left: 150px;
+    }
+
+    footer div .bi {
+        font-size: 2em;
     }
 
     .main-inicio__galeria {
